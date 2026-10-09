@@ -36,7 +36,7 @@ jobs:
     steps:
       - uses: bcgov/action-test-and-analyse@8f699e3fd3fadd9a6adf6f4b1f2638ef7ecfefb9 # v2.0.0
         env:
-          sonar_token: ${{ secrets.sonar_token_backend }}
+          sonar_token: ${{ secrets.sonar_token }}
         with:
           commands: |
             npm ci
@@ -65,7 +65,7 @@ jobs:
     steps:
       - uses: bcgov/action-test-and-analyse@8f699e3fd3fadd9a6adf6f4b1f2638ef7ecfefb9 # v2.0.0
         env:
-          sonar_token: ${{ secrets.sonar_token_frontend }}
+          sonar_token: ${{ secrets.sonar_token }}
         with:
           commands: |
             npm ci
