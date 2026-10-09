@@ -29,7 +29,7 @@ describe('Layout', () => {
     expect(screen.getAllByRole('main')).toHaveLength(1)
     expect(screen.getByRole('main')).toContainElement(screen.getByText('Page content'))
     expect(
-      screen.getByRole('heading', { level: 1, name: 'QuickStart OpenShift — qdemo' }),
+      screen.getByRole('heading', { level: 1, name: 'QuickStart OpenShift — qdemo2' }),
     ).toBeInTheDocument()
 
     const header = screen.getByRole('banner')

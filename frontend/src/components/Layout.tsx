@@ -9,7 +9,7 @@ type Props = {
 const Layout: FC<Props> = ({ children }) => {
   return (
     <div className="d-flex flex-column min-vh-100">
-      <Header title="QuickStart OpenShift — qdemo" titleElement="h1">
+      <Header title="QuickStart OpenShift — qdemo2" titleElement="h1">
         {' '}
         <Link aria-label="Dashboard" className="btn btn-light btn-lg" to="/">
           <i aria-hidden="true" className="bi bi-house-door-fill" />
